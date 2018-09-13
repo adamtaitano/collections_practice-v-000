@@ -9,17 +9,17 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count(array)
-    array.sort do |a, b|
-      a.length <=> b.length
-    end
+  array.sort do |a, b|
+    a.length <=> b.length
+  end
 end
 
 def swap_elements(array)
-  second_element = array[1]
-  third_element = array[2]
-  array[1] = third_element
-  array[2] = second_element
-  return array
+  # second_element = array[1]
+  # third_element = array[2]
+  # array[1] = third_element
+  # array[2] = second_element
+  # return array
 end
 #
 def reverse_array(array)
