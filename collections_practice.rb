@@ -3,10 +3,9 @@ def sort_array_asc(array)
 end
 
 def sort_array_desc(array)
-  desc_array = array.sort do |a, b|
+  array.sort do |a, b|
     b <=> a
   end
-  return desc_array
 end
 
 def sort_array_char_count(array)
