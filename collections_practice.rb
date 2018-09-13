@@ -1,6 +1,5 @@
 def sort_array_asc(array)
-  sorted_array = array.sort
-  return sorted_array
+  sorted_array.sort
 end
 
 def sort_array_desc(array)
